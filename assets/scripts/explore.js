@@ -31,10 +31,10 @@ function init() {
     });
     const face = document.getElementsByTagName('img')[0];
     speakText.onstart = e => {
-      face.src = '../assets/images/smiling-open.png';
+      face.src = 'assets/images/smiling-open.png';
     }
     speakText.onend = e => {
-      face.src = '../assets/images/smiling.png';
+      face.src = 'assets/images/smiling.png';
     }
     synth.speak(speakText);
   }
