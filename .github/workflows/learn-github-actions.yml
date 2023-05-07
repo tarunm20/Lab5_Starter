@@ -2,10 +2,6 @@ name: learn-github-actions
 run-name: Introduction to Github actions
 on: [push]
 jobs:
-  my_first_job:
-    name: My first job
-  my_second_job:
-    name: My second job
   build:
     runs-on: ubuntu-latest
     steps:
